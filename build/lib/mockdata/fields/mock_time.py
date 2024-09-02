@@ -39,21 +39,6 @@ class MockTime(Common):
         day = self.fake.day_of_month()  # .strftime('%d') 22
         return day
 
-    def mock_hour(self):
-        """随机获取小时数"""
-        hour = self.fake.hour()  # .strftime('%H') 01
-        return hour
-
-    def mock_minute(self):
-        """随机获取分钟数"""
-        minute = self.fake.minute()  # .strftime('%M') 43
-        return minute
-
-    def mock_second(self):
-        """随机获取秒数"""
-        second = self.fake.second()  # .strftime('%S') 35
-        return second
-
     def mock_timestamp(self):
         """随机获取时间戳"""
         fake_datetime = self.fake.date_time()
@@ -74,6 +59,3 @@ class MockTime(Common):
         """随机获取时区"""
         timezone = self.fake.timezone()  # 'Europe/Andorra'
         return timezone
-
-
-

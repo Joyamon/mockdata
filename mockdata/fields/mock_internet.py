@@ -12,7 +12,7 @@ class MockInternet(Common):
         return self.fake.company_email()
 
     def mock_email(self):
-        """Mock ascii_email"""
+        """Mock email"""
         return self.fake.ascii_email()
 
     def mock_domain_name(self):

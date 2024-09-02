@@ -3,6 +3,19 @@
 mockdata 是一个 Python 库，用于生成模拟数据。它包含各个行业各种字段，包含地址，个人信息（姓名，性别，职位等），电话，银行相关信息（信用卡，银行信息），货币（汇率、币种等），
 汽车（车牌号，汽车识别码）相关信息，公司（公司名称，联系方式）信息，信用卡，经纬度，互联网相关信息，文件，密码，代理信息等等 可以用于测试、演示和开发。
 
+### 更新日志
+```
+1.0.0
+    - 首次提交
+1.0.1
+    - 演示
+1.0.2
+    - 修复mock_time()方法
+    - 优化MockCreditCard()类中mock_credit_card_provider()方法
+    - 新增mockdata方法使用示例.doc文件，包含mockdata方法使用示例
+```
+
+
 ### 安装步骤
 * 从pypi安装
 ```
@@ -83,6 +96,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 'mail': 'tzeng@gmail.com', 'birthdate': datetime.date(1920, 2, 25)}
 
 ```
+
 
 ### License
 
