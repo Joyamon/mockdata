@@ -2,8 +2,8 @@ from mockdata.init import Common
 
 
 class MockAddress(Common):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lan='zh_CN'):
+        super().__init__(lan)
         self.fake = self.get_fake()
 
     def mock_address(self):
@@ -49,6 +49,5 @@ class MockAddress(Common):
     def mock_current_country_code(self):
         """随机获取当前国家代码"""
         return self.fake.current_country_code()
-
 
 

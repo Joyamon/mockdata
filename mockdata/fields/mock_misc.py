@@ -6,8 +6,8 @@ from mockdata.utils.convert import base64_to_image
 
 class MockMisc(Common):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lan='zh_CN'):
+        super().__init__(lan)
         self.fake = self.get_fake()
 
     def mock_binary(self):

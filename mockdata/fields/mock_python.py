@@ -3,8 +3,8 @@ from mockdata.init import Common
 
 class MockPython(Common):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lan='zh_CN'):
+        super().__init__(lan)
         self.fake = self.get_fake()
 
     def mock_pydict(self):
@@ -42,6 +42,3 @@ class MockPython(Common):
     def mock_pytuple(self):
         """随机元组"""
         return self.fake.pytuple()
-
-
-

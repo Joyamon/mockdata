@@ -3,8 +3,8 @@ from mockdata.init import Common
 
 class MockUserAgent(Common):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lan='zh_CN'):
+        super().__init__(lan)
         self.fake = self.get_fake()
 
     def mock_android_platform_token(self):

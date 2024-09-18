@@ -5,8 +5,8 @@ from mockdata.init import Common
 
 
 class MockCreditCard(Common):
-    def __init__(self):
-        super().__init__()
+    def __init__(self, lan='zh_CN'):
+        super().__init__(lan)
         self.fake = self.get_fake()
         # 自定义银行列表
         self.bank = {
