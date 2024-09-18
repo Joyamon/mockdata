@@ -6,3 +6,6 @@ __pycache__
 *.pyd
 *.pyw
 *.pyz
+build
+dist
+mockdata.egg-info
