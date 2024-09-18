@@ -16,6 +16,10 @@ mockdata 是一个 Python 库，用于生成模拟数据。
     - 修复mock_time()方法
     - 优化MockCreditCard()类中mock_credit_card_provider()方法
     - 新增mockdata方法使用示例.doc文件，包含mockdata方法使用示例
+1.0.3
+    - 优化common
+    - 增加语言参数，默认为中文，如需生成英文数据，请使用MockAddress('en_US').mock_address()
+    
 ```
 
 

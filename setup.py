@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="mockdata",
-    version="1.0.2",
+    version="1.0.3",
     author="半只程序员",
     description="mockdata生产数据",
     long_description=long_description,
